@@ -6,6 +6,5 @@ button.addEventListener("click", function () {
 	result.value = "";
 	if (number.validity.valid && number.value != "") {
 		result.value = Math.pow(+number.value, 2);
-		console.log(Math.pow(+number.value, 2));
 	}
 });
